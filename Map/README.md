@@ -10,9 +10,9 @@ Currently, two official plugins are available:
 
 Main File
 <h1>App.jsx</h1>
-<img src="./public/Map.png">
+<img width="100%" src="./public/Map.png">
 <br/>
 <br/>
 <br/>
 <h1>MapE.jsx</h1>
-<img src="./public/Map1.png">
+<img width="100%" src="./public/Map1.png">
