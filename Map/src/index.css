@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -26,10 +29,22 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
 }
+.w-961{
+  width: clamp(18rem, 90vw, 75rem); 
+}
+.ad::-webkit-scrollbar {
+	width: 3px;
+  height: 3px;
+}
+.ad::-webkit-scrollbar-thumb {
+	background-color: #a258ed;
+	border-radius: 50px;
 
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
